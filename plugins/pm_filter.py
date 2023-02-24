@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+#  From @hari cr7
 # REDIRECT added https://github.com/Joelkb
 import asyncio
 import re
@@ -113,7 +113,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>ʜᴇʟᴏ👋🏻\n\n⚡ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ 1⚡\n\nhttps://t.me/+8UzeauT4q6kxZTg1\nhttps://t.me/+8UzeauT4q6kxZTg1\n\n\n⚡ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ 2⚡\n\nhttps://t.me/+4x1dVrlHYFM3MTc1\nhttps://t.me/+4x1dVrlHYFM3MTc1\n\n⚡ ᴊᴏɪɴ ᴩᴀɴɴᴜɢᴀ ɢʀᴏᴜᴩʟᴀ ⚡</b>")
+    await message.reply_text("<b>Hᴇʏ Dᴜᴅᴇ🥰,\n\nYᴏᴜ ᴄᴀɴ'ᴛ Gᴇᴛ ᴍᴏᴠɪᴇ ʜᴇʀᴇ........\nAꜱᴋ ᴍᴏᴠɪᴇ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ 𝚓ᴏɪɴ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/TAMIL_FLIMS_HD/467")]]))
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
