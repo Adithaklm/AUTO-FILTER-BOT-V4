@@ -1,18 +1,10 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝗛𝗦-𝗕𝗢𝗧𝗦+𝗚𝗶𝘁𝗛𝘂𝗯!)</p>
 <p align="center">
-  <img src="https://telegra.ph/file/309e2f94e47fd56a3ff75.jpg" alt="𝙷𝚂 𝙱𝙾𝚃𝚂">
+  <img src="https://telegra.ph/file/7dfa556bb4d78269eb589.jpg" alt="🍁𝙃𝙎-𝘽𝙊𝙏-𝙑4🍁">
 </p>
 <h1 align="center">
-  <b>ʜꜱ-ʙᴏᴛꜱ</b>
+  <b>🍁𝙃𝙎-𝘽𝙊𝙏-𝙑4🍁</b>
 </h1>
-
-<p align="center">
-    <img src="https://img.shields.io/github/license/Devil-Botz/Elsa?style=for-the-badge&logo=appveyor" alt="LICENSE" >
-    <img src="https://img.shields.io/github/contributors/Devil-Botz/Elsa?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/Devil-Botz/Elsa?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
-    <img src="https://img.shields.io/github/issues/Devil-Botz/Elsa?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/Devil-Botz/Elsa?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/Devil-Botz/Elsa?style=for-the-badge&logo=appveyor" alt="Stars">
-</p>
 
 ## Features
 
@@ -60,20 +52,6 @@
 * `FILE_FORWARD` : File redirect to channel telegram channel link eg: https://t.me/**************
 * `DELETE_CHANNELS` : you can delete multiple files by forwarding those files into a private channel. Firstly make a private channel, add your bot as admin, add that channel's ID as a variable named DELETE_CHANNELS and forward the files to that private channel and the bot will delete those files from its database. You can check logs to confirm whether the file is deleted from the bot's database or not.
 ### Optional Variables
-
-## Credits
-<details>
-
- Thanks To [Mahesh](https://github.com/Mahesh0253/Media-Search-bot) MediaSearch
-
- Thanks To [Subinps](https://github.com/subinps/Media-Search-bot) AutoFilter & Base repo
- 
- Thanks To [Joelkb](https://github.com/Joelkb) Collaborator [Add Redirect feature,Error fixed, Add new features]
-
- Thanks To [Devil-Botz](https://github.com/Devil-Botz) Owner,Add more features 
-
-
-</details>
 
 ## Deploy
 You can deploy this bot anywhere.
@@ -139,10 +117,3 @@ python3 bot.py
 * /font - fonts for your text
 * /deletefiles - PreDvD CamRip deletion
 ```
-<b> 😇CREATOR » [Aswin](https://t.me/Aswin_pm_Bot)</b>
-
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/Devil-Botz/Elsa-V3/blob/main/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
-
