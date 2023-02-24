@@ -1,4 +1,4 @@
-#  From @hari cr7
+#  From @haricr7
 # REDIRECT added https://github.com/Joelkb
 import asyncio
 import re
