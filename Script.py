@@ -10,20 +10,20 @@ class script(object):
 
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
-    ABOUT_TXT = """<b>╔════❰ ꫝꪖ𝘳𝓲 ❱═❍⊱❁۪۪
+    ABOUT_TXT = """<b>
+╔════❰ ꫝꪖ𝘳𝓲 ❱═❍⊱❁۪۪
 ║┏━━━━━━━━━━━━━━━➣
 ║┣⪼  ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>​​​
 ║┣⪼ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/Hari_OP>ʜᴀʀɪ ᠰ нѕ</a>
 ║┣⪼ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴘʏʀᴏɢʀᴀᴍ</a>
 ║┣⪼ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/download/releases/3.0/>ᴘʏᴛʜᴏɴ 3</a>
 ║┣⪼ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href=https://www.mongodb.com/>ᴍᴏɴɢᴏ ᴅʙ</a>
-║┣⪼ ʙᴏᴛ sᴇʀᴠᴇʀ : ǫᴜɪᴄᴋ ꜰᴀsᴛ​
+║┣⪼ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href=https://www.koyeb.com>ᴋᴏʏᴇʙ ᴅʙ</a>
 ║┣⪼ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]
 ║┗━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁</b>"""
 
-    SOURCE_TXT = """<b>𝐇𝐄𝐘 𝐁𝐑𝐔𝐇
-✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
+    SOURCE_TXT = """<b>
 ╔════❰ ꫝꪖ𝘳𝓲 ❱═❍⊱❁۪۪
 ║┏━━━━━━━━━━━━━━━➣
 ║┣🎯✨ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ❣
@@ -276,10 +276,10 @@ Total Members = <code>{}</code>
 Added By - {}
 Elsa
 """
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
-Elsa
+    LOG_TEXT_P = """#ɴᴇᴡ ᴜꜱᴇʀ
+ɪᴅ - <code>{}</code>
+ɴᴀᴍᴇ - {}
+ʜꜱ-ʙᴏᴛ
 """
     FILE_MSG = """
 <b>Hai 👋 {} </b>😍
@@ -304,16 +304,17 @@ Elsa
     SUR_TXT = """<b> ʜᴇʟᴏ {}\n\nᴍʏ ɴᴀᴍᴇ ɪꜱ <a href=https://t.me/{}>{}</a>,ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ + ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ. ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ ᴀʟsᴏ ! ᴀʟsᴏ ɪ ᴄᴀɴ sᴛᴏʀᴇ ꜰɪʟᴇs\n\n😇ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/Hari_OP>𝙷𝙰𝚁𝙸 𓆩♡︎𓆪</a> </b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+<b>⍞ 𝗧𝗶𝘁𝗹𝗲</b> : <b><i><a href={url}>{title}</a></i></b><b>
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+⌗ 𝗚𝗲𝗻𝗿𝗲𝘀</b> :<b><i>{genres}</i></b><b>
+★ 𝗥𝗮𝘁𝗶𝗻𝗴</b> : <b><i><a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)</i></b><b>
 
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
+〄 𝗥𝗲𝗹𝗲𝗮𝘀𝗲𝗱</b> : <b><i>{release_date}</i></b><b>
+⌬ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀</b> : <b><i>{languages}</i></b><b>
+⛤ 𝗖𝗼𝘂𝗻𝘁𝗿𝗶𝗲𝘀</b> : <b><i>{countries}</i></b><b>
+⎙ 𝗦𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗲</b> : <code>{plot}</code><b>
 
-⚡{message.chat.title}</b>
+★𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆 </b> : {message.from_user.mention}
 """
 
     CUSTOM_FILE_CAPTION = """<b>ɴᴀᴍᴇ : <code>{file_name}</code> \n\n <b>ꜱɪᴢᴇ :<code> {file_size}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ](https://t.me/TAMIL_FLIMS_HD)\n\nɴᴏᴛᴇ : ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ</b>"""
