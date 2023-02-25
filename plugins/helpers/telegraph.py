@@ -38,6 +38,12 @@ async def telegraph(client, message):
         await message.reply(
             f"Link :- <code>https://telegra.ph{response[0]}</code>",
             disable_web_page_preview=True
+            reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton(text="Open Link", url=f"https://graph.org{response[0]}"),
+            InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://graph.org{response[0]}")
+            ],[
+            InlineKeyboardButton(text="✗ Close ✗", callback_data="close")
+            ]])
         )
     finally:
         shutil.rmtree(
