@@ -659,33 +659,33 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(MSG_ALRT)
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🍇ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
-            InlineKeyboardButton('🔮ᴀᴜᴛᴏ', callback_data='autofilter'),
-            InlineKeyboardButton('🧬ᴄᴏɴɴᴇᴄᴛ', callback_data='coct')
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='autofilter'),
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct')
         ], [
-            InlineKeyboardButton('🪆ᴇxᴛʀᴀ', callback_data='extra'),
-            InlineKeyboardButton('🎤sᴏɴɢ', callback_data='song'),
-            InlineKeyboardButton('🎹ᴛᴛs', callback_data='tts')
+            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
+            InlineKeyboardButton('ᴛᴛs', callback_data='tts')
         ], [
-            InlineKeyboardButton('📹ᴠɪᴅᴇ', callback_data='video'),
-            InlineKeyboardButton('📸ᴛɢʀᴀᴘʜ', callback_data='tele'),
-            InlineKeyboardButton('🧩ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook')    
+            InlineKeyboardButton('ᴠɪᴅᴇ', callback_data='video'),
+            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tele'),
+            InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook')    
         ], [
-             InlineKeyboardButton('😊ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
-             InlineKeyboardButton('🎋ᴄᴏᴠɪᴅ', callback_data='corona'),
-             InlineKeyboardButton('🚀ɢᴀᴍᴇs', callback_data='fun')
+             InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
+             InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona'),
+             InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun')
         ], [
-             InlineKeyboardButton('🧭ᴘɪɴɢ', callback_data='pings'),
-             InlineKeyboardButton('🪶ᴊsᴏɴᴇ', callback_data='json'),
-             InlineKeyboardButton('🕊️sᴛɪᴄᴋɪᴅ', callback_data='sticker')
+             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
+             InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
+             InlineKeyboardButton('sᴛɪᴄᴋɪᴅ', callback_data='sticker')
         ], [
-             InlineKeyboardButton('🦋ᴡʜᴏɪs', callback_data='whois'),
-             InlineKeyboardButton('☔ᴜʀʟsʜᴏʀᴛ', callback_data='urlshort'),
-             InlineKeyboardButton('🍁ғᴏɴᴛ', callback_data='font')  
+             InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
+             InlineKeyboardButton('ᴜʀʟsʜᴏʀᴛ', callback_data='urlshort'),
+             InlineKeyboardButton('ғᴏɴᴛ', callback_data='font')  
         ], [ 
-             InlineKeyboardButton('🍂ɢᴛʀᴀɴs', callback_data='gtrans'),
-             InlineKeyboardButton('❣️ᴄᴀʀʙᴏɴ', callback_data='carb'),
-             InlineKeyboardButton('🎋ᴅᴇᴘʟᴏʏ', callback_data='deploy')
+             InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
+             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb'),
+             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy')
         ], [
              InlineKeyboardButton('⎙ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ​⎙', callback_data='start')   
         ]]
